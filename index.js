@@ -121,12 +121,12 @@ $(function(){
         for(var y=0; y < board.length; y++){
             for(var x=0; x < board[y].length; x++){
                 var elem = $('#'+x+y);
-                elem.css('width', '40px').css('height', '40px').css('padding', '0').css('border', '0');
+                elem.css('width', '35px').css('height', '35px').css('padding', '0').css('border', '0');
                 if(board[y][x] == 1){
-                    elem.html('<img src="1.png" style="width: 40px; height: 40px;">');
+                    elem.html('<img src="1.png" style="width: 35px; height: 35px;">');
                 }
                 else if(board[y][x] == -1){
-                    elem.html('<img src="_1.png" style="width: 40px; height: 40px;">');
+                    elem.html('<img src="_1.png" style="width: 35px; height: 35px;">');
                 }
             }
         }
